@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="icon" href="HTMLFile/PWS/a.png" type="image/png">
+    <!-- font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+
+    <!-- CSS dan boostrap-->
+    <link rel="stylesheet" href="styleproject.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist\css\bootstrap.css">
+</head>
+<body class="bodyn">
+    <!--navbar-->
+    <section class="navbar">
+        <div class="logo">  
+            <img src="HTMLFile/PWS/a.png" width="50px" height="50px" alt="Logo"> <h1><b><i>ZipKeys</i></b></h1>
+        </div>
+        <div search-boxa>
+        <input type="search" placeholder="Search Our Store" class="searchin">
+
+        </div>
+        <ul class="nav-links">
+            <li><a href="A_UTS1.html">HOME</a></li>
+            <li><a href="A_UTS2.html">SHOPPING</a></li>
+            <li><a href="A_UTS3.html">ABOUT US</a></li>
+            <li><a href="A_UTS4.html"><img src="HTMLFile/PWS/shop.png" alt="cart" width="40"></a></li>
+        </ul>
+    </section>
+
+    <!--Sistem keranjang-->
+    <div class="keranjang">
+        <h1><b>Shopping Cart</b></h1>
+    </div>
+    <div class="container my-4">
+        <div id="cart-empty" class="alert alert-info" role="alert" style="display:none;">
+            Your cart is empty. Go to <a href="A_UTS2.html">Shopping</a> to add items.
+        </div>
+        <div id="cart-area" class="cartt">
+            <table class="table" id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                </tbody>
+            </table>
+            <div class="d-flex justify-content-end">
+                <h4>Total: <span id="cart-total">Rp. 0</span></h4>
+            </div>
+            <div class="d-flex justify-content-end mt-3">
+                <button id="clear-cart" class="btn btn-danger me-2">Clear Cart</button>
+                <button id="checkout" class="btn btn-success">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer dari bootstrap-->
+    <br><br>
+    <form class="subscribe">
+        <label for="email"><b>Subscribe to Receive Our News :</b></label>
+        <input type="email" name="nama" placeholder="Input Your Email">
+    </form>
+    <div class="haha">
+        <div class="container text-center">
+        <div class="row align-items-start">
+            <div class="col">
+            <b>Address:<br></b> ZipKeys Store<br> Jl. Ketintang No.156
+            </div>
+            <div class="col">
+            <b>Inspiration:</b><br><a href="https://kbdfans.com/"> KBD Fans</a><br>
+            <a href="http://qwertykeys.com/">Qwertykeys</a>
+            </div>
+            <div class="col">
+            <b>Our Social Media:<br></b>
+            <a href="https://www.youtube.com/@zippfx">YouTube</a><br>
+            <a href="https://www.linkedin.com/in/davinrh/">LinkedIn</a>
+            </div>
+            <div class="col">
+            <b>Install Our App:<br></b>
+            <img src="HTMLFile/PWS/gp.png" alt="cart" width="110">
+            <img src="HTMLFile/PWS/as.png" alt="cart" width="94">
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Trademark™ ZipKeys, All Right Reserved | Supported By Unesa</p>
+    </div>
+    <script src="jsuts.js"></script>
+</body>
+</html>

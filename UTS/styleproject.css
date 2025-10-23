@@ -1,0 +1,255 @@
+.bodyn {
+    margin: 0;
+    padding: 0;
+    background-color: #ede8D0;
+    font-family: 'poppins', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    margin-left: 40px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo b{
+    margin-left: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.navbar li {
+    padding: 15px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    flex: 1;
+    margin: 7px;
+    padding-right: 0px;
+}
+
+.nav-links li:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+  text-shadow: #1d1d1d 0px 1px 2px;
+}
+
+.searc-boxa  {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchin {
+    display: flex;
+    flex: 2;
+    padding: 10px 150px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: #3d3d3d 0px 1px 1px;
+}
+
+.searchin:hover {
+    box-shadow: #ff0000 2px 1px 5px;
+    color: #ff0000;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.video {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top  : 20px;
+}
+
+.video iframe {
+    border: 5px solid #ff9966;
+    border-radius: 10px;
+    box-shadow: #6a6a6a 2px 1px 5px;
+}
+
+.zipkeys-description {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    color: #333333;
+    margin-top: -10x;
+}
+
+.zipkeys-description p {
+    font-size: 22px;
+    margin-top: -15px;
+    font-family: 'Times New Roman';
+}
+
+.container1 {
+ display: grid;
+ grid-template-columns: 0fr 0fr 0fr; /* 3 kolom sama lebar */
+ justify-content: center;
+ gap: 50px;
+ margin-top: 50px;
+ font-family: ' poppins', sans-serif;
+ }
+
+ .item:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  cursor: pointer;
+ }  
+
+ .item {
+margin-top: -15px;
+ background: radial-gradient(circle,#ff5e62,#ff9966);
+ padding: 15px;
+ text-align: center;
+ border: 1px solid rgb(57, 57, 57);
+ border-radius: 10px;
+ box-shadow: #6a6a6a 0px 1px 4px;
+ font-family: 'poppins', sans-serif;
+ color: rgb(39, 39, 39);
+}
+
+.item p {
+    border: white 1px solid;
+    background-color: #ff5e62;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px ;
+    box-shadow: #434343 0px 1px 1px;
+}
+
+.item p:hover{
+    transform: scale(1.07);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item img {
+border: #333333 1px solid;
+}
+
+.Keyboard {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color: #333333;
+}
+
+.Keyboard p {
+    margin-top: -15px;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.Keyboard h1 {
+    font-weight: 500px  ;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(254, 176, 93);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.haha{
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    padding: 25px;
+}
+
+.col img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.subscribe {
+  background: rgb(254, 176, 93);
+  text-align: center;
+  padding: 15px;
+}
+
+.subscribe label{ 
+  padding: 5px;
+  font-size: 23px;
+}
+
+.subscribe input{
+  padding: 7px 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.subscribe input:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.carousel-item img {
+  height: 600px;   
+  object-fit: contain;  
+  object-position: center;
+  transition: 0;
+}
+
+.profile h1{
+    margin: 20px;
+    text-align:center;
+}
+
+.fade-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.keranjang{
+    text-align: center;
+    padding: 30px;
+}
+
+.item button {
+    background-color: #efaa4e;
+    border-color: #ffffff;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 5px 150px;
+    box-shadow: #1d1d1d 0px 1px 2px;
+}
+
+.item button:hover {
+    background-color: black;
+    border-color: #efaa4e;
+}
+
+#cartt table {
+    border-radius: 10px;
+    color: black;
+}
