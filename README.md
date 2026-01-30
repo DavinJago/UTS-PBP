@@ -9,12 +9,12 @@ The main products featured are flagship keyboards and mice.
 
 ## ✨ Features
 
--Built with HTML, CSS, and JavaScript for basic functionality<br>
--Interactive UI/UX<br>
--Simple buying and selling system<br>
+- Built with HTML, CSS, and JavaScript for basic functionality<br>
+- Interactive UI/UX<br>
+- Simple buying and selling system<br>
 
 Please excuse any limitations or simplicity, as this project is intended as a basic Front-End practice.
 ## 📄 Notes
 
 Feel free to customize and modify this project for learning purposes.
-## FOR PERSONAL USE ONLY
+**FOR PERSONAL USE ONLY**
