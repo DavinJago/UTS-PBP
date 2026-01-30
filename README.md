@@ -3,13 +3,13 @@ ZipKeys is a simple online marketplace website focused on selling computer perip
 This project was created for Mid-Term (UTS) purposes and as practice for applying fundamental Front-End web development concepts.
 
 <hr>
-## 📌 Project Description
+</h2>  📌 Project Description
 
 In this project, I built a basic buying and selling website using a peripherals marketplace concept.
 The main products featured are flagship keyboards and mice.
 
 <hr>
-## This website applies core fundamentals of:
+<h2>This website applies core fundamentals of:</h2> 
 
 -HTML <br>
 -CSS <br>
@@ -18,8 +18,7 @@ The main products featured are flagship keyboards and mice.
 
 Please excuse any limitations or simplicity, as this project is intended as a basic Front-End practice.
 
-<hr>
-## ✨ Features
+<hr>## ✨ Features
 
 -Built with HTML, CSS, and JavaScript for basic functionality<br>
 -Interactive UI/UX<br>
