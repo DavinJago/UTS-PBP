@@ -20,3 +20,8 @@ Please excuse any limitations or simplicity, as this project is intended as a ba
 
 Feel free to customize and modify this project for learning purposes.
 > FOR PERSONAL USE ONLY
+
+## Screenshots
+![Homepage](images/home.png)
+![About Us](images/about.png)
+![Shopping Cart](images/cart.png)
