@@ -22,6 +22,10 @@ Feel free to customize and modify this project for learning purposes.
 > FOR PERSONAL USE ONLY
 
 ## Screenshots
-![Homepage](images/home.png)
-![About Us](images/about.png)
-![Shopping Cart](images/cart.png)
+<img src="images/home.png" width="600">
+<img src="images/our-keyboards.png" width="600">
+<img src="images/our-mice.png" width="600">
+<img src="images/shopping-page.png" width="600">
+<img src="images/simple-buylist.png" width="600">
+<img src="images/about.png" width="600">
+<img src="images/cart.png" width="600">
