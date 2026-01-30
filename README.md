@@ -23,5 +23,5 @@ Feel free to customize and modify this project for learning purposes.
 
 ## Screenshots
 ![Homepage](images/home.png)
-![About Us](images/about.png)
+![About Us](images/simple-buylist.png)
 ![Shopping Cart](images/cart.png)
