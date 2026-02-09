@@ -1,6 +1,6 @@
 # ZipKeys
 ![HTML](https://img.shields.io/badge/html-%23E34C26?style=for-the-badge&logo=html5&logoColor=white)
-![css](https://img.shields.io/badge/html-blue?style=for-the-badge&logo=css&logoColor=white)
+![css](https://img.shields.io/badge/css-blue?style=for-the-badge&logo=css&logoColor=white)
 ![JS](https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white)
 
 ZipKeys is a simple online marketplace website focused on selling computer peripherals, currently limited to mice and keyboards.
