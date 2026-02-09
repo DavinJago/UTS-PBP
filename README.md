@@ -1,4 +1,8 @@
 # ZipKeys
+https://img.shields.io/badge/html-%23E34C26?style=for-the-badge&logo=html5&logoColor=white
+https://img.shields.io/badge/html-blue?style=for-the-badge&logo=css&logoColor=white
+https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white
+
 ZipKeys is a simple online marketplace website focused on selling computer peripherals, currently limited to mice and keyboards.
 This project was created for Mid-Term (UTS) purposes and as practice for applying fundamental Front-End web development concepts.
 
