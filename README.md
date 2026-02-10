@@ -19,7 +19,7 @@ The main products featured are flagship keyboards and mice.
   
 - Simple buying and selling system
 
-Please excuse any limitations or simplicity, as this project is intended as a basic Front-End practice.
+> Please excuse any limitations or simplicity, as this project is intended as a basic Front-End practice.
 
 ## Notes
 
